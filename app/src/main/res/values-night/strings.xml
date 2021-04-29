@@ -2,4 +2,5 @@
 <resources>
     <string name="nome">Nome</string>
     <string name="email">Email</string>
+    <string name="mensagemNome_vazia" />
 </resources>

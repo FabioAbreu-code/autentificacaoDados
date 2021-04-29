@@ -37,7 +37,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayoutTelefone"
+        android:id="@+id/textInputLayoutTelemovel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -45,10 +45,10 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayoutEmail">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/TextInputEditTelefone"
+            android:id="@+id/TextInputEditTelemovel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Telefone" />
+            android:hint="Telemóvel" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutTelefone">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutTelemovel">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/TextInputEditIdade"
@@ -73,6 +73,7 @@
         android:layout_marginTop="304dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
+        android:onClick="enviaMensagem"
         android:text="Enviar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
